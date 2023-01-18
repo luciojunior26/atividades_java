@@ -1,9 +1,0 @@
-package entities;
-
-public class CurrencyConverter {
-	
-	public static double pay () {
-		return pay + pay/100;
-	}
-
-}
