@@ -23,7 +23,8 @@ public class Program {
 		for (int i=1; i<=n; i++) {
 			System.out.print("Individual or company (i/c): ");
 			char ch = sc.next().charAt(0);
-			System.out.println("Name: ");
+			sc.nextLine();
+			System.out.print("Name: ");
 			String name = sc.nextLine();
 			System.out.print("Anual income: ");
 			double anualIncome = sc.nextDouble();
@@ -37,9 +38,19 @@ public class Program {
 				payers.add(new Company(name, anualIncome, numberEmployees));
 			}
 		}
+		double sum = 0.0;
 		System.out.println();
-		System.out.print("TAXES PAID: ");
-		
-	}
+		System.out.println("TAXES PAID: ");
+		for (Payer tp : payers) {
+			double tax = tp.tax();
+			System.out.println(tp.getName() + ": $ " + String.format("%.2f", tax));
+			sum += tax;
+		}
+		System.out.println();
+		System.out.println("Total taxes: $ " + String.format("%.2f", sum));
 
+		sc.close();
+	}
+	
+	
 }
