@@ -1,2 +1,3 @@
 # atividades_java
-Atividades realizada no curso de Java
+Atividade do curso da UDEMY 
+Java COMPLETO 2023 Programação Orientada a Objetos +Projetos (https://www.udemy.com/course/java-curso-completo/)
