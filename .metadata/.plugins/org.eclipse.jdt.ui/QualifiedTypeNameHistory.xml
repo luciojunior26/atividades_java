@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="entities.Client"/>
     <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
     <fullyQualifiedTypeName name="entities.Order"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="entities.OrderItem"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
@@ -46,7 +45,9 @@
     <fullyQualifiedTypeName name="model.exceptions.DomainException"/>
     <fullyQualifiedTypeName name="model.exceptions.BusinessException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="javax.naming.ldap.LdapContext"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 </qualifiedTypeNameHistroy>
